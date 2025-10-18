@@ -1,1067 +1,1245 @@
 [
   {
+    "code": "CHE",
     "country": "Switzerland",
     "year": 2014,
     "monthly_net_usd": 6302,
     "yearly_gross_usd": 94526
   },
   {
+    "code": "LUX",
     "country": "Luxembourg",
     "year": 2014,
     "monthly_net_usd": 4480,
     "yearly_gross_usd": 67197
   },
   {
+    "code": "ZMB",
     "country": "Zambia",
     "year": 2014,
     "monthly_net_usd": 4331,
     "yearly_gross_usd": 64965
   },
   {
+    "code": "JEY",
     "country": "Jersey",
     "year": 2014,
     "monthly_net_usd": 4323,
     "yearly_gross_usd": 64849
   },
   {
+    "code": "BMU",
     "country": "Bermuda",
     "year": 2014,
     "monthly_net_usd": 4250,
     "yearly_gross_usd": 63750
   },
   {
+    "code": "NOR",
     "country": "Norway",
     "year": 2014,
     "monthly_net_usd": 4215,
     "yearly_gross_usd": 63231
   },
   {
+    "code": "MCO",
     "country": "Monaco",
     "year": 2013,
     "monthly_net_usd": 4143,
     "yearly_gross_usd": 62142
   },
   {
+    "code": "QAT",
     "country": "Qatar",
     "year": 2014,
     "monthly_net_usd": 4038,
     "yearly_gross_usd": 60571
   },
   {
+    "code": "GIB",
     "country": "Gibraltar",
     "year": 2014,
     "monthly_net_usd": 3991,
     "yearly_gross_usd": 59860
   },
   {
+    "code": "AUS",
     "country": "Australia",
     "year": 2014,
     "monthly_net_usd": 3781,
     "yearly_gross_usd": 56710
   },
   {
+    "code": "CYM",
     "country": "Cayman Islands",
     "year": 2014,
     "monthly_net_usd": 3313,
     "yearly_gross_usd": 49695
   },
   {
+    "code": "DNK",
     "country": "Denmark",
     "year": 2014,
     "monthly_net_usd": 3270,
     "yearly_gross_usd": 49044
   },
   {
+    "code": "USA",
     "country": "United States of America",
     "year": 2014,
     "monthly_net_usd": 3259,
     "yearly_gross_usd": 48883
   },
   {
+    "code": null,
     "country": "British Virgin Islands",
     "year": 2014,
     "monthly_net_usd": 3200,
     "yearly_gross_usd": 48000
   },
   {
+    "code": "SWE",
     "country": "Sweden",
     "year": 2014,
     "monthly_net_usd": 3181,
     "yearly_gross_usd": 47717
   },
   {
+    "code": "ARE",
     "country": "United Arab Emirates",
     "year": 2014,
     "monthly_net_usd": 3081,
     "yearly_gross_usd": 46220
   },
   {
+    "code": null,
     "country": "The Bahamas",
     "year": 2014,
     "monthly_net_usd": 3025,
     "yearly_gross_usd": 45375
   },
   {
+    "code": "IRL",
     "country": "Ireland",
     "year": 2014,
     "monthly_net_usd": 2991,
     "yearly_gross_usd": 44868
   },
   {
+    "code": null,
     "country": "United Kingdom of Great Britain and Northern Ireland",
     "year": 2014,
     "monthly_net_usd": 2961,
     "yearly_gross_usd": 44408
   },
   {
+    "code": "NLD",
     "country": "Netherlands",
     "year": 2014,
     "monthly_net_usd": 2938,
     "yearly_gross_usd": 44064
   },
   {
+    "code": "FIN",
     "country": "Finland",
     "year": 2014,
     "monthly_net_usd": 2924,
     "yearly_gross_usd": 43862
   },
   {
+    "code": "DEU",
     "country": "Germany",
     "year": 2014,
     "monthly_net_usd": 2852,
     "yearly_gross_usd": 42778
   },
   {
+    "code": "ABW",
     "country": "Aruba",
     "year": 2014,
     "monthly_net_usd": 2833,
     "yearly_gross_usd": 42500
   },
   {
+    "code": "JPN",
     "country": "Japan",
     "year": 2014,
     "monthly_net_usd": 2782,
     "yearly_gross_usd": 41736
   },
   {
+    "code": "CAN",
     "country": "Canada",
     "year": 2014,
     "monthly_net_usd": 2774,
     "yearly_gross_usd": 41603
   },
   {
+    "code": "FRA",
     "country": "France",
     "year": 2014,
     "monthly_net_usd": 2762,
     "yearly_gross_usd": 41430
   },
   {
+    "code": "SGP",
     "country": "Singapore",
     "year": 2014,
     "monthly_net_usd": 2759,
     "yearly_gross_usd": 41391
   },
   {
+    "code": "GUM",
     "country": "Guam",
     "year": 2013,
     "monthly_net_usd": 2750,
     "yearly_gross_usd": 41250
   },
   {
+    "code": "GRL",
     "country": "Greenland",
     "year": 2013,
     "monthly_net_usd": 2745,
     "yearly_gross_usd": 41173
   },
   {
+    "code": "AND",
     "country": "Andorra",
     "year": 2014,
     "monthly_net_usd": 2731,
     "yearly_gross_usd": 40967
   },
   {
+    "code": "NZL",
     "country": "New Zealand",
     "year": 2014,
     "monthly_net_usd": 2693,
     "yearly_gross_usd": 40396
   },
   {
+    "code": "AGO",
     "country": "Angola",
     "year": 2014,
     "monthly_net_usd": 2650,
     "yearly_gross_usd": 39750
   },
   {
+    "code": "BEL",
     "country": "Belgium",
     "year": 2014,
     "monthly_net_usd": 2565,
     "yearly_gross_usd": 38473
   },
   {
+    "code": null,
     "country": "Hong Kong (S.A.R.)",
     "year": 2014,
     "monthly_net_usd": 2496,
     "yearly_gross_usd": 37438
   },
   {
+    "code": "GGY",
     "country": "Guernsey",
     "year": 2014,
     "monthly_net_usd": 2495,
     "yearly_gross_usd": 37431
   },
   {
+    "code": "FRO",
     "country": "Faroe Islands",
     "year": 2014,
     "monthly_net_usd": 2470,
     "yearly_gross_usd": 37055
   },
   {
+    "code": "AUT",
     "country": "Austria",
     "year": 2014,
     "monthly_net_usd": 2457,
     "yearly_gross_usd": 36860
   },
   {
+    "code": "NCL",
     "country": "New Caledonia",
     "year": 2013,
     "monthly_net_usd": 2425,
     "yearly_gross_usd": 36380
   },
   {
+    "code": "KWT",
     "country": "Kuwait",
     "year": 2014,
     "monthly_net_usd": 2237,
     "yearly_gross_usd": 33551
   },
   {
+    "code": null,
     "country": "Brunei",
     "year": 2014,
     "monthly_net_usd": 2228,
     "yearly_gross_usd": 33423
   },
   {
+    "code": "ISL",
     "country": "Iceland",
     "year": 2014,
     "monthly_net_usd": 2176,
     "yearly_gross_usd": 32642
   },
   {
+    "code": "KOR",
     "country": "South Korea",
     "year": 2014,
     "monthly_net_usd": 2174,
     "yearly_gross_usd": 32615
   },
   {
+    "code": "ITA",
     "country": "Italy",
     "year": 2014,
     "monthly_net_usd": 2118,
     "yearly_gross_usd": 31766
   },
   {
+    "code": "OMN",
     "country": "Oman",
     "year": 2014,
     "monthly_net_usd": 2087,
     "yearly_gross_usd": 31307
   },
   {
+    "code": "REU",
     "country": "Reunion",
     "year": 2014,
     "monthly_net_usd": 1912,
     "yearly_gross_usd": 28677
   },
   {
+    "code": "ISR",
     "country": "Israel",
     "year": 2014,
     "monthly_net_usd": 1875,
     "yearly_gross_usd": 28119
   },
   {
+    "code": "SAU",
     "country": "Saudi Arabia",
     "year": 2014,
     "monthly_net_usd": 1786,
     "yearly_gross_usd": 26791
   },
   {
+    "code": "GAB",
     "country": "Gabon",
     "year": 2014,
     "monthly_net_usd": 1704,
     "yearly_gross_usd": 25562
   },
   {
+    "code": "PRI",
     "country": "Puerto Rico",
     "year": 2014,
     "monthly_net_usd": 1704,
     "yearly_gross_usd": 25553
   },
   {
+    "code": "ESP",
     "country": "Spain",
     "year": 2014,
     "monthly_net_usd": 1635,
     "yearly_gross_usd": 24527
   },
   {
+    "code": "BRB",
     "country": "Barbados",
     "year": 2014,
     "monthly_net_usd": 1625,
     "yearly_gross_usd": 24375
   },
   {
+    "code": "CYP",
     "country": "Cyprus",
     "year": 2014,
     "monthly_net_usd": 1619,
     "yearly_gross_usd": 24283
   },
   {
+    "code": "MLT",
     "country": "Malta",
     "year": 2014,
     "monthly_net_usd": 1562,
     "yearly_gross_usd": 23433
   },
   {
+    "code": "PYF",
     "country": "French Polynesia",
     "year": 2013,
     "monthly_net_usd": 1502,
     "yearly_gross_usd": 22532
   },
   {
+    "code": "BLZ",
     "country": "Belize",
     "year": 2014,
     "monthly_net_usd": 1441,
     "yearly_gross_usd": 21615
   },
   {
+    "code": "ZAF",
     "country": "South Africa",
     "year": 2014,
     "monthly_net_usd": 1400,
     "yearly_gross_usd": 21000
   },
   {
+    "code": "MUS",
     "country": "Mauritius",
     "year": 2014,
     "monthly_net_usd": 1338,
     "yearly_gross_usd": 20066
   },
   {
+    "code": "TWN",
     "country": "Taiwan",
     "year": 2014,
     "monthly_net_usd": 1307,
     "yearly_gross_usd": 19611
   },
   {
+    "code": "SVN",
     "country": "Slovenia",
     "year": 2014,
     "monthly_net_usd": 1276,
     "yearly_gross_usd": 19135
   },
   {
+    "code": "GRD",
     "country": "Grenada",
     "year": 2014,
     "monthly_net_usd": 1250,
     "yearly_gross_usd": 18750
   },
   {
+    "code": "BHR",
     "country": "Bahrain",
     "year": 2014,
     "monthly_net_usd": 1227,
     "yearly_gross_usd": 18402
   },
   {
+    "code": null,
     "country": "Curacao",
     "year": 2013,
     "monthly_net_usd": 1102,
     "yearly_gross_usd": 16527
   },
   {
+    "code": "MWI",
     "country": "Malawi",
     "year": 2013,
     "monthly_net_usd": 1099,
     "yearly_gross_usd": 16485
   },
   {
+    "code": "GNQ",
     "country": "Equatorial Guinea",
     "year": 2013,
     "monthly_net_usd": 1088,
     "yearly_gross_usd": 16313
   },
   {
+    "code": "PRT",
     "country": "Portugal",
     "year": 2014,
     "monthly_net_usd": 1082,
     "yearly_gross_usd": 16226
   },
   {
+    "code": "JAM",
     "country": "Jamaica",
     "year": 2014,
     "monthly_net_usd": 1080,
     "yearly_gross_usd": 16207
   },
   {
+    "code": "CZE",
     "country": "Czech Republic",
     "year": 2014,
     "monthly_net_usd": 1020,
     "yearly_gross_usd": 15307
   },
   {
+    "code": "ARG",
     "country": "Argentina",
     "year": 2014,
     "monthly_net_usd": 1019,
     "yearly_gross_usd": 15279
   },
   {
+    "code": "LSO",
     "country": "Lesotho",
     "year": 2014,
     "monthly_net_usd": 1018,
     "yearly_gross_usd": 15267
   },
   {
+    "code": "MYS",
     "country": "Malaysia",
     "year": 2014,
     "monthly_net_usd": 980,
     "yearly_gross_usd": 14694
   },
   {
+    "code": "GRC",
     "country": "Greece",
     "year": 2014,
     "monthly_net_usd": 953,
     "yearly_gross_usd": 14302
   },
   {
+    "code": "CHL",
     "country": "Chile",
     "year": 2014,
     "monthly_net_usd": 950,
     "yearly_gross_usd": 14243
   },
   {
+    "code": "SVK",
     "country": "Slovakia",
     "year": 2014,
     "monthly_net_usd": 948,
     "yearly_gross_usd": 14219
   },
   {
+    "code": "LBN",
     "country": "Lebanon",
     "year": 2014,
     "monthly_net_usd": 937,
     "yearly_gross_usd": 14057
   },
   {
+    "code": "EST",
     "country": "Estonia",
     "year": 2014,
     "monthly_net_usd": 915,
     "yearly_gross_usd": 13725
   },
   {
+    "code": "POL",
     "country": "Poland",
     "year": 2014,
     "monthly_net_usd": 906,
     "yearly_gross_usd": 13584
   },
   {
+    "code": "HRV",
     "country": "Croatia",
     "year": 2014,
     "monthly_net_usd": 870,
     "yearly_gross_usd": 13046
   },
   {
+    "code": "URY",
     "country": "Uruguay",
     "year": 2014,
     "monthly_net_usd": 863,
     "yearly_gross_usd": 12939
   },
   {
+    "code": "IMN",
     "country": "Isle of Man",
     "year": 2013,
     "monthly_net_usd": 831,
     "yearly_gross_usd": 12471
   },
   {
+    "code": "SUR",
     "country": "Suriname",
     "year": 2014,
     "monthly_net_usd": 808,
     "yearly_gross_usd": 12120
   },
   {
+    "code": null,
     "country": "Swaziland",
     "year": 2014,
     "monthly_net_usd": 787,
     "yearly_gross_usd": 11804
   },
   {
+    "code": "CRI",
     "country": "Costa Rica",
     "year": 2014,
     "monthly_net_usd": 779,
     "yearly_gross_usd": 11686
   },
   {
+    "code": "PAN",
     "country": "Panama",
     "year": 2014,
     "monthly_net_usd": 770,
     "yearly_gross_usd": 11553
   },
   {
+    "code": "BRA",
     "country": "Brazil",
     "year": 2014,
     "monthly_net_usd": 758,
     "yearly_gross_usd": 11369
   },
   {
+    "code": "MOZ",
     "country": "Mozambique",
     "year": 2014,
     "monthly_net_usd": 757,
     "yearly_gross_usd": 11358
   },
   {
+    "code": "TUR",
     "country": "Turkey",
     "year": 2014,
     "monthly_net_usd": 756,
     "yearly_gross_usd": 11341
   },
   {
+    "code": "NGA",
     "country": "Nigeria",
     "year": 2014,
     "monthly_net_usd": 732,
     "yearly_gross_usd": 10975
   },
   {
+    "code": "CHN",
     "country": "China",
     "year": 2014,
     "monthly_net_usd": 731,
     "yearly_gross_usd": 10967
   },
   {
+    "code": "MEX",
     "country": "Mexico",
     "year": 2014,
     "monthly_net_usd": 730,
     "yearly_gross_usd": 10949
   },
   {
+    "code": "TTO",
     "country": "Trinidad and Tobago",
     "year": 2014,
     "monthly_net_usd": 719,
     "yearly_gross_usd": 10792
   },
   {
+    "code": "LVA",
     "country": "Latvia",
     "year": 2014,
     "monthly_net_usd": 713,
     "yearly_gross_usd": 10697
   },
   {
+    "code": "HTI",
     "country": "Haiti",
     "year": 2014,
     "monthly_net_usd": 713,
     "yearly_gross_usd": 10688
   },
   {
+    "code": "FJI",
     "country": "Fiji",
     "year": 2014,
     "monthly_net_usd": 710,
     "yearly_gross_usd": 10653
   },
   {
+    "code": "LTU",
     "country": "Lithuania",
     "year": 2014,
     "monthly_net_usd": 701,
     "yearly_gross_usd": 10519
   },
   {
+    "code": "RUS",
     "country": "Russia",
     "year": 2014,
     "monthly_net_usd": 686,
     "yearly_gross_usd": 10292
   },
   {
+    "code": "HUN",
     "country": "Hungary",
     "year": 2014,
     "monthly_net_usd": 668,
     "yearly_gross_usd": 10014
   },
   {
+    "code": "SDN",
     "country": "Sudan",
     "year": 2014,
     "monthly_net_usd": 650,
     "yearly_gross_usd": 9750
   },
   {
+    "code": "LBY",
     "country": "Libya",
     "year": 2014,
     "monthly_net_usd": 644,
     "yearly_gross_usd": 9661
   },
   {
+    "code": "JOR",
     "country": "Jordan",
     "year": 2014,
     "monthly_net_usd": 637,
     "yearly_gross_usd": 9555
   },
   {
+    "code": "NAM",
     "country": "Namibia",
     "year": 2014,
     "monthly_net_usd": 633,
     "yearly_gross_usd": 9495
   },
   {
+    "code": "TZA",
     "country": "Tanzania",
     "year": 2014,
     "monthly_net_usd": 633,
     "yearly_gross_usd": 9490
   },
   {
+    "code": "MDV",
     "country": "Maldives",
     "year": 2014,
     "monthly_net_usd": 627,
     "yearly_gross_usd": 9410
   },
   {
+    "code": "KAZ",
     "country": "Kazakhstan",
     "year": 2014,
     "monthly_net_usd": 614,
     "yearly_gross_usd": 9214
   },
   {
+    "code": "NIC",
     "country": "Nicaragua",
     "year": 2014,
     "monthly_net_usd": 593,
     "yearly_gross_usd": 8888
   },
   {
+    "code": "MNE",
     "country": "Montenegro",
     "year": 2014,
     "monthly_net_usd": 590,
     "yearly_gross_usd": 8847
   },
   {
+    "code": "IRQ",
     "country": "Iraq",
     "year": 2014,
     "monthly_net_usd": 573,
     "yearly_gross_usd": 8593
   },
   {
+    "code": "GTM",
     "country": "Guatemala",
     "year": 2014,
     "monthly_net_usd": 571,
     "yearly_gross_usd": 8562
   },
   {
+    "code": "VEN",
     "country": "Venezuela",
     "year": 2014,
     "monthly_net_usd": 565,
     "yearly_gross_usd": 8471
   },
   {
+    "code": "BOL",
     "country": "Bolivia",
     "year": 2014,
     "monthly_net_usd": 564,
     "yearly_gross_usd": 8463
   },
   {
+    "code": "BIH",
     "country": "Bosnia and Herzegovina",
     "year": 2014,
     "monthly_net_usd": 562,
     "yearly_gross_usd": 8437
   },
   {
+    "code": "MDG",
     "country": "Madagascar",
     "year": 2014,
     "monthly_net_usd": 533,
     "yearly_gross_usd": 8000
   },
   {
+    "code": "BWA",
     "country": "Botswana",
     "year": 2014,
     "monthly_net_usd": 529,
     "yearly_gross_usd": 7933
   },
   {
+    "code": "AZE",
     "country": "Azerbaijan",
     "year": 2014,
     "monthly_net_usd": 525,
     "yearly_gross_usd": 7873
   },
   {
+    "code": "HND",
     "country": "Honduras",
     "year": 2014,
     "monthly_net_usd": 523,
     "yearly_gross_usd": 7843
   },
   {
+    "code": "DMA",
     "country": "Dominica",
     "year": 2013,
     "monthly_net_usd": 514,
     "yearly_gross_usd": 7708
   },
   {
+    "code": "SRB",
     "country": "Serbia",
     "year": 2014,
     "monthly_net_usd": 507,
     "yearly_gross_usd": 7606
   },
   {
+    "code": "BGR",
     "country": "Bulgaria",
     "year": 2014,
     "monthly_net_usd": 507,
     "yearly_gross_usd": 7601
   },
   {
+    "code": "THA",
     "country": "Thailand",
     "year": 2014,
     "monthly_net_usd": 503,
     "yearly_gross_usd": 7542
   },
   {
+    "code": "BLR",
     "country": "Belarus",
     "year": 2014,
     "monthly_net_usd": 502,
     "yearly_gross_usd": 7533
   },
   {
+    "code": "ZWE",
     "country": "Zimbabwe",
     "year": 2014,
     "monthly_net_usd": 500,
     "yearly_gross_usd": 7500
   },
   {
+    "code": "PER",
     "country": "Peru",
     "year": 2014,
     "monthly_net_usd": 492,
     "yearly_gross_usd": 7382
   },
   {
+    "code": "DOM",
     "country": "Dominican Republic",
     "year": 2014,
     "monthly_net_usd": 491,
     "yearly_gross_usd": 7371
   },
   {
+    "code": "ROU",
     "country": "Romania",
     "year": 2014,
     "monthly_net_usd": 487,
     "yearly_gross_usd": 7306
   },
   {
+    "code": "KEN",
     "country": "Kenya",
     "year": 2014,
     "monthly_net_usd": 481,
     "yearly_gross_usd": 7218
   },
   {
+    "code": "COL",
     "country": "Colombia",
     "year": 2014,
     "monthly_net_usd": 475,
     "yearly_gross_usd": 7120
   },
   {
+    "code": "CMR",
     "country": "Cameroon",
     "year": 2014,
     "monthly_net_usd": 467,
     "yearly_gross_usd": 7001
   },
   {
+    "code": "MNG",
     "country": "Mongolia",
     "year": 2014,
     "monthly_net_usd": 465,
     "yearly_gross_usd": 6973
   },
   {
+    "code": "RWA",
     "country": "Rwanda",
     "year": 2014,
     "monthly_net_usd": 460,
     "yearly_gross_usd": 6900
   },
   {
+    "code": "IND",
     "country": "India",
     "year": 2014,
     "monthly_net_usd": 452,
     "yearly_gross_usd": 6782
   },
   {
+    "code": null,
     "country": "Iran, Islamic Republic of...",
     "year": 2014,
     "monthly_net_usd": 448,
     "yearly_gross_usd": 6714
   },
   {
+    "code": "ALB",
     "country": "Albania",
     "year": 2014,
     "monthly_net_usd": 434,
     "yearly_gross_usd": 6513
   },
   {
+    "code": "PRY",
     "country": "Paraguay",
     "year": 2014,
     "monthly_net_usd": 426,
     "yearly_gross_usd": 6384
   },
   {
+    "code": "LCA",
     "country": "Saint Lucia",
     "year": 2014,
     "monthly_net_usd": 421,
     "yearly_gross_usd": 6317
   },
   {
+    "code": "MAR",
     "country": "Morocco",
     "year": 2014,
     "monthly_net_usd": 416,
     "yearly_gross_usd": 6234
   },
   {
+    "code": "MLI",
     "country": "Mali",
     "year": 2014,
     "monthly_net_usd": 400,
     "yearly_gross_usd": 6000
   },
   {
+    "code": "TUN",
     "country": "Tunisia",
     "year": 2014,
     "monthly_net_usd": 393,
     "yearly_gross_usd": 5895
   },
   {
+    "code": null,
     "country": "Republic of Macedonia",
     "year": 2014,
     "monthly_net_usd": 387,
     "yearly_gross_usd": 5803
   },
   {
+    "code": "UGA",
     "country": "Uganda",
     "year": 2014,
     "monthly_net_usd": 380,
     "yearly_gross_usd": 5697
   },
   {
+    "code": "TKM",
     "country": "Turkmenistan",
     "year": 2013,
     "monthly_net_usd": 373,
     "yearly_gross_usd": 5600
   },
   {
+    "code": "SLV",
     "country": "El Salvador",
     "year": 2014,
     "monthly_net_usd": 365,
     "yearly_gross_usd": 5475
   },
   {
+    "code": "UZB",
     "country": "Uzbekistan",
     "year": 2014,
     "monthly_net_usd": 361,
     "yearly_gross_usd": 5411
   },
   {
+    "code": "ECU",
     "country": "Ecuador",
     "year": 2014,
     "monthly_net_usd": 359,
     "yearly_gross_usd": 5389
   },
   {
+    "code": "UKR",
     "country": "Ukraine",
     "year": 2014,
     "monthly_net_usd": 358,
     "yearly_gross_usd": 5366
   },
   {
+    "code": "LKA",
     "country": "Sri Lanka",
     "year": 2014,
     "monthly_net_usd": 353,
     "yearly_gross_usd": 5289
   },
   {
+    "code": "COD",
     "country": "Democratic Republic of the Congo",
     "year": 2014,
     "monthly_net_usd": 352,
     "yearly_gross_usd": 5277
   },
   {
+    "code": "GHA",
     "country": "Ghana",
     "year": 2014,
     "monthly_net_usd": 351,
     "yearly_gross_usd": 5268
   },
   {
+    "code": "SOM",
     "country": "Somalia",
     "year": 2014,
     "monthly_net_usd": 350,
     "yearly_gross_usd": 5250
   },
   {
+    "code": "KGZ",
     "country": "Kyrgyzstan",
     "year": 2014,
     "monthly_net_usd": 350,
     "yearly_gross_usd": 5250
   },
   {
+    "code": "DZA",
     "country": "Algeria",
     "year": 2014,
     "monthly_net_usd": 346,
     "yearly_gross_usd": 5197
   },
   {
+    "code": "BGD",
     "country": "Bangladesh",
     "year": 2014,
     "monthly_net_usd": 340,
     "yearly_gross_usd": 5103
   },
   {
+    "code": null,
     "country": "Viet Nam",
     "year": 2014,
     "monthly_net_usd": 335,
     "yearly_gross_usd": 5019
   },
   {
+    "code": "PHL",
     "country": "Philippines",
     "year": 2014,
     "monthly_net_usd": 331,
     "yearly_gross_usd": 4961
   },
   {
+    "code": "ARM",
     "country": "Armenia",
     "year": 2014,
     "monthly_net_usd": 313,
     "yearly_gross_usd": 4693
   },
   {
+    "code": "IDN",
     "country": "Indonesia",
     "year": 2014,
     "monthly_net_usd": 304,
     "yearly_gross_usd": 4564
   },
   {
+    "code": "GEO",
     "country": "Georgia",
     "year": 2014,
     "monthly_net_usd": 299,
     "yearly_gross_usd": 4491
   },
   {
+    "code": null,
     "country": "Burma",
     "year": 2014,
     "monthly_net_usd": 282,
     "yearly_gross_usd": 4224
   },
   {
+    "code": null,
     "country": "Laos",
     "year": 2014,
     "monthly_net_usd": 281,
     "yearly_gross_usd": 4220
   },
   {
+    "code": "PNG",
     "country": "Papua New Guinea",
     "year": 2014,
     "monthly_net_usd": 274,
     "yearly_gross_usd": 4112
   },
   {
+    "code": "SYC",
     "country": "Seychelles",
     "year": 2014,
     "monthly_net_usd": 267,
     "yearly_gross_usd": 4008
   },
   {
+    "code": "EGY",
     "country": "Egypt",
     "year": 2014,
     "monthly_net_usd": 264,
     "yearly_gross_usd": 3965
   },
   {
+    "code": "BDI",
     "country": "Burundi",
     "year": 2013,
     "monthly_net_usd": 256,
     "yearly_gross_usd": 3844
   },
   {
+    "code": null,
     "country": "Syria",
     "year": 2014,
     "monthly_net_usd": 252,
     "yearly_gross_usd": 3776
   },
   {
+    "code": "ETH",
     "country": "Ethiopia",
     "year": 2014,
     "monthly_net_usd": 249,
     "yearly_gross_usd": 3735
   },
   {
+    "code": null,
     "country": "Moldova",
     "year": 2014,
     "monthly_net_usd": 244,
     "yearly_gross_usd": 3661
   },
   {
+    "code": "KHM",
     "country": "Cambodia",
     "year": 2014,
     "monthly_net_usd": 244,
     "yearly_gross_usd": 3659
   },
   {
+    "code": "PAK",
     "country": "Pakistan",
     "year": 2014,
     "monthly_net_usd": 239,
     "yearly_gross_usd": 3590
   },
   {
+    "code": "YEM",
     "country": "Yemen",
     "year": 2014,
     "monthly_net_usd": 229,
     "yearly_gross_usd": 3435
   },
   {
+    "code": "AFG",
     "country": "Afghanistan",
     "year": 2014,
     "monthly_net_usd": 214,
     "yearly_gross_usd": 3204
   },
   {
+    "code": "GUY",
     "country": "Guyana",
     "year": 2014,
     "monthly_net_usd": 209,
     "yearly_gross_usd": 3140
   },
   {
+    "code": "SEN",
     "country": "Senegal",
     "year": 2014,
     "monthly_net_usd": 200,
     "yearly_gross_usd": 3000
   },
   {
+    "code": "CPV",
     "country": "Cape Verde",
     "year": 2014,
     "monthly_net_usd": 191,
     "yearly_gross_usd": 2868
   },
   {
+    "code": "TJK",
     "country": "Tajikistan",
     "year": 2013,
     "monthly_net_usd": 187,
     "yearly_gross_usd": 2809
   },
   {
+    "code": "NPL",
     "country": "Nepal",
     "year": 2014,
     "monthly_net_usd": 166,
     "yearly_gross_usd": 2497
   },
   {
+    "code": "WSM",
     "country": "Samoa",
     "year": 2013,
     "monthly_net_usd": 64,
     "yearly_gross_usd": 957
   },
   {
+    "code": "GMB",
     "country": "Gambia",
     "year": 2014,
     "monthly_net_usd": 39,
     "yearly_gross_usd": 591
   },
   {
+    "code": "CUB",
     "country": "Cuba",
     "year": 2014,
     "monthly_net_usd": 25,
     "yearly_gross_usd": 376
   },
   {
+    "code": null,
     "country": "Other",
     "year": 2014,
     "monthly_net_usd": 1142,
     "yearly_gross_usd": 16900
   },
   {
+    "code": "KOR",
     "country": "Republic of Korea",
     "year": 2014,
     "monthly_net_usd": 214,
