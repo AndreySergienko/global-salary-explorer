@@ -7,10 +7,27 @@ jobs:
   build-test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up node js
+        uses: actions/setup-node@v4
         with: { node-version: '22' }
-      - run: pnpm install --frozen-lockfile
-      - run: pnpm lint
-      - run: pnpm test -- --ci --coverage
-      - run: pnpm build
+
+      - name: Install dependencies
+        run: |
+          npm cache clean --force
+          npm install
+
+      - name: Start linting
+        run: npm run lint
+
+      - name: Start unit test
+        run: npm run test:unit
+
+      - name: Start e2e test
+        run: npm run test:e2e
+
+      - name: Build
+        run: build-only
+
