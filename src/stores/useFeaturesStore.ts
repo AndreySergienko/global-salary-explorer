@@ -5,7 +5,6 @@ import type { CountryFeature } from '@/types'
 
 export const useFeaturesStore = defineStore('features', () => {
   const items = ref<CountryFeature[]>([])
-  const isLoaded = shallowRef<boolean>(false)
   const error = shallowRef<string | null>(null)
 
   const yearlyGrossValues = computed<number[]>(() =>
@@ -32,9 +31,8 @@ export const useFeaturesStore = defineStore('features', () => {
 
   async function fetchFeatures(url = '/data/salaries.json') {
     error.value = null
-    isLoaded.value = false
     try {
-      const res = await fetch(url, { credentials: 'omit' })
+      const res = await fetch(url)
       if (!res.ok) {
         throw new Error(`Failed to load ${url}: ${res.status}`)
       }
@@ -45,8 +43,6 @@ export const useFeaturesStore = defineStore('features', () => {
       } else {
         console.error(e)
       }
-    } finally {
-      isLoaded.value = true
     }
   }
 

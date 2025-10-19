@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref, toValue } from 'vue'
 import { useGoogleMap } from '@/composables/useGoogleMap.ts'
-import AppLoader from '@/components/shared/AppLoader.vue'
 import { useFeaturesStore } from '@/stores/useFeaturesStore.ts'
 import { storeToRefs } from 'pinia'
 import { mountLegend } from '@/composables/useMountLegend.ts'
@@ -10,7 +9,7 @@ import { useRenderPolygon } from '@/composables/useRenderPolygon.ts'
 const mapEl = ref<HTMLDivElement | null>(null)
 const store = useFeaturesStore()
 const { items, minYearlyGross, maxYearlyGross } = storeToRefs(store)
-const { loadMap, destroy, map, isLoaded } = useGoogleMap()
+const { loadMap, destroy, map } = useGoogleMap()
 
 const tooltip = mountLegend({ label: '', yearly: 1 })
 const { drawPolygons, clearPolygons } = useRenderPolygon(map)
@@ -52,6 +51,5 @@ onUnmounted(() => {
 <template>
   <section class="map">
     <div ref="mapEl" style="width: 56em; height: 56em" aria-label="Map"></div>
-    <AppLoader v-if="!isLoaded" />
   </section>
 </template>

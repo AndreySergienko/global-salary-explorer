@@ -13,14 +13,14 @@
 <style scoped lang="css">
 .loader {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 20em;
+  height: 20em;
   border-radius: 50%;
   /* smooth background */
   background: radial-gradient(
     circle,
     rgba(255, 255, 255, 0.05) 30%,
-    transparent 70%
+    transparent 20%
   );
   overflow: hidden;
 }
@@ -31,7 +31,7 @@
   position: absolute;
   inset: 0;
   border-radius: 50%;
-  border: 4px solid transparent;
+  border: .4em solid transparent;
   border-top-color: rgba(255, 255, 255, 0.6);
   animation: loader-spin 2s linear infinite;
 }
@@ -52,12 +52,12 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 30px;
-  height: 30px;
-  background: rgba(255, 255, 255, 0.9);
+  width: 6em;
+  height: 6em;
+  background: rgba(0, 0, 0);
   border-radius: 50%;
   transform: translate(-50%, -50%);
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 1.5em rgba(255, 255, 255, 0.6);
   animation: loader-pulse 1s ease-in-out infinite;
 }
 
@@ -76,8 +76,8 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 8px;
-  height: 8px;
+  width: .9em;
+  height: .9em;
   background: rgba(255, 255, 255, 0.8);
   border-radius: 50%;
 }

@@ -26,4 +26,5 @@ self.onmessage = (e: MessageEvent) => {
     })
 
   ;(self as DedicatedWorkerGlobalScope).postMessage(result)
+  self.close();
 }

@@ -5,7 +5,6 @@ import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
 const isStorybook = !!process.env.STORYBOOK;
-console.log(process.env)
 
 // https://vite.dev/config/
 export default defineConfig({

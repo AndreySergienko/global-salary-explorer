@@ -26,7 +26,7 @@
 </template>
 
 <script setup lang="ts">
-import MapSection from '@/components/MapSection.vue'
+import MapSection from '@/features/MapController.vue'
 </script>
 
 <style scoped lang="scss">
