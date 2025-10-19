@@ -31,7 +31,6 @@ export function featureToPolygonPaths(feature: {
 }): LatLng[][][] {
   if (!feature || !feature.geometry_type) return [];
 
-  // Нормализуем в массив полигонов (даже для Polygon)
   const polygons: unknown[] =
     feature.geometry_type === 'Polygon'
       ? [feature.coordinates]
