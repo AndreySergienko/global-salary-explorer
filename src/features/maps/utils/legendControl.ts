@@ -1,4 +1,3 @@
-// components/mapLegend.ts
 export function addLegendControl(
   map: google.maps.Map,
   min: number,

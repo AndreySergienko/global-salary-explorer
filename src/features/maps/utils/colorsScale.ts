@@ -16,7 +16,6 @@ function rgbToHex({ r, g, b }: { r: number; g: number; b: number }) {
   return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
 }
 
-/** value∈[min,max] → цвет от красного к зелёному */
 export function getChoroplethColor(
   value: number,
   min: number,

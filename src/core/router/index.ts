@@ -4,7 +4,7 @@ import type { RouteRecordRaw } from 'vue-router'
 const routes: RouteRecordRaw[] = [
   {
     path: '/',
-    component: () => import(/* webpackChunkName: "map-page" */'@pages/MapView.vue')
+    component: () => import('@pages/MapView.vue')
   }
 ]
 

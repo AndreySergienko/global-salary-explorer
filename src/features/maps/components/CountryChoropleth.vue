@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, onUnmounted, computed, ref } from 'vue'
+import { watchEffect, onUnmounted, computed, ref } from 'vue'
 import type { CountryFeature } from '@/features/maps/types'
 import { featureToPolygonPaths } from '@/features/maps/utils/transformJsonToPointMap.ts'
 import { getChoroplethColor } from '@/features/maps/utils/colorsScale.ts'
@@ -24,15 +24,19 @@ const minVal = computed(() => Math.min(...props.features.map(valueAccessor)))
 const maxVal = computed(() => Math.max(...props.features.map(valueAccessor)))
 
 function draw() {
-  if (props.map) return
+  if (!props.map) return
   clear()
 
   infoWindow.value = new google.maps.InfoWindow()
-
   for (const f of props.features) {
     const polygons = featureToPolygonPaths(f)
     const value = valueAccessor(f)
     const fillColor = getChoroplethColor(value, minVal.value, maxVal.value)
+
+    if (!f.coordinates || (Array.isArray(f.coordinates) && f.coordinates.length === 0)) {
+      console.warn('[CHORO] empty coords:', f.code, f.country);
+    }
+
 
     for (const paths of polygons) {
       const polygon = new google.maps.Polygon({
@@ -43,7 +47,8 @@ function draw() {
         fillColor,
         fillOpacity: props.fillOpacity ?? 0.75,
         clickable: true,
-        map: props.map
+        map: props.map,
+        zIndex: 2
       })
 
       polygon.addListener('mouseover', (e: google.maps.MapMouseEvent) => {
@@ -75,7 +80,7 @@ function clear() {
   infoWindow.value = null
 }
 
-onMounted(() => {
+watchEffect(() => {
   if (props.isLoaded) draw()
 })
 
