@@ -1,7 +1,4 @@
-import { featureToPolygonPaths } from '@/utils/transformJsonToPointMap.ts'
-
 export type Position = [number, number];
-type LatLng = google.maps.LatLngLiteral
 
 export interface CountryFeature {
   code: string;
@@ -13,7 +10,4 @@ export interface CountryFeature {
   coordinates: Position[][] | Position[][][];
 }
 
-export interface CountryFeatureOutWorker extends CountryFeature {
-  paths: ReturnType<typeof featureToPolygonPaths>
-  fillColor: string;
-}
+export type Lang = 'ru' | 'en'

@@ -1,32 +1,32 @@
 <template>
   <section class="page">
-    <header class="page__header">
-      <h1 class="page__title">Мировые зарплаты на карте</h1>
+    <div class="page__header">
+      <h1 class="page__title">{{ $t('title') }}</h1>
       <p class="page__subtitle">
-        Чем насыщеннее цвет — тем выше значение. Наведите на страну, чтобы увидеть годовую и месячную сумму.
+        {{ $t('subtitle1') }}
       </p>
 
       <div class="page__legend-hint">
         <span class="page__dot page__dot--low" aria-hidden="true"></span>
-        ниже средних
-        <span class="page__sep">•</span>
+        {{ $t('legend.low') }}
+        <span class="page__sep">{{ $t('legend.sep') }}</span>
         <span class="page__dot page__dot--high" aria-hidden="true"></span>
-        выше средних
+        {{ $t('legend.high') }}
       </div>
 
       <p class="page__subtitle">
-        <i>Если область не имеет окраса на карте, значит по ней не удалось найти достоверную информацию</i>
+        <i>{{ $t('subtitle2') }}</i>
       </p>
-    </header>
+    </div>
 
     <div class="page__map">
-      <MapSection />
+      <MapController />
     </div>
   </section>
 </template>
 
 <script setup lang="ts">
-import MapSection from '@/features/MapController.vue'
+import MapController from '@/features/map/controllers/MapController.vue'
 </script>
 
 <style scoped lang="scss">

@@ -1,17 +1,21 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref, toValue } from 'vue'
-import { useGoogleMap } from '@/composables/useGoogleMap.ts'
-import { useFeaturesStore } from '@/stores/useFeaturesStore.ts'
 import { storeToRefs } from 'pinia'
-import { mountLegend } from '@/composables/useMountLegend.ts'
-import { useRenderPolygon } from '@/composables/useRenderPolygon.ts'
+import { useGoogleMap } from '@/features/map/composables/useGoogleMap.ts'
+import { useFeaturesStore } from '@/stores/useFeaturesStore.ts'
+import { mountLegend } from '@/features/map/composables/useMountLegend.ts'
+import { useRenderPolygon } from '@/features/map/composables/useRenderPolygon.ts'
+import { useI18n } from 'vue-i18n'
 
 const mapEl = ref<HTMLDivElement | null>(null)
 const store = useFeaturesStore()
+const { t } = useI18n()
 const { items, minYearlyGross, maxYearlyGross } = storeToRefs(store)
 const { loadMap, destroy, map } = useGoogleMap()
 
-const tooltip = mountLegend({ label: '', yearly: 1 })
+const tooltip = mountLegend({ label: '', yearly: 1, t })
+
+
 const { drawPolygons, clearPolygons } = useRenderPolygon(map)
 
 onMounted(async () => {
@@ -24,7 +28,9 @@ onMounted(async () => {
   await loadMap({
     element: mapEl.value,
     center: { lat: 40.4168, lng: -3.7038 },
-    zoom: 5
+    zoom: 2,
+    tilt: 67.5,
+    mapId: import.meta.env.VITE_GOOGLE_MAP_ID
   })
 
   const min = toValue(minYearlyGross)

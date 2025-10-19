@@ -1,0 +1,12 @@
+{
+  "title": "World salaries on the map",
+  "subtitle1": "The deeper the color, the higher the value. Hover a country to see yearly and monthly amounts.",
+  "legend.low": "below average",
+  "legend.sep": "•",
+  "legend.high": "above average",
+  "subtitle2": "If an area has no color on the map, reliable information wasn't found for it",
+  "nav.home": "Home",
+  "nav.graphic": "Chart",
+  "legend.year": "Per year:",
+  "legend.month": "Per month:"
+}

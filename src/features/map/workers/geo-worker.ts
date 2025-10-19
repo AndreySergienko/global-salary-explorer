@@ -1,7 +1,7 @@
 /// <reference lib="webworker" />
 
-import { getChoroplethColor } from '@/utils/colorsScale'
-import { featureToPolygonPaths } from '@/utils/transformJsonToPointMap'
+import { getChoroplethColor } from '@/utils/colorsScale.ts'
+import { featureToPolygonPaths } from '@/utils/transformJsonToPointMap.ts'
 import type { CountryFeature } from '@/types'
 
 self.onmessage = (e: MessageEvent) => {

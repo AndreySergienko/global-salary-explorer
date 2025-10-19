@@ -7,10 +7,11 @@ interface MapOptions extends google.maps.MapOptions {
 
 const DEFAULT_OPTIONS = {
   center: { lat: 20, lng: 0 },
-  zoom: 3,
+  zoom: 2,
   mapTypeControl: false,
   streetViewControl: false,
   fullscreenControl: false,
+  renderingType: 'VECTOR',
 }
 
 export function useGoogleMap() {
@@ -21,8 +22,8 @@ export function useGoogleMap() {
     if (!element) {
       throw Error(`Map element is not found`);
     }
-    const { VITE_MAPS_API_KEY } = import.meta.env
-    setOptions({ key: VITE_MAPS_API_KEY });
+    const { VITE_MAPS_API_KEY, VITE_GOOGLE_MAP_ID } = import.meta.env
+    setOptions({ key: VITE_MAPS_API_KEY, v: '3.59', mapIds: [VITE_GOOGLE_MAP_ID],  });
     const { Map } = await importLibrary("maps");
     map.value = new Map(element, Object.assign(DEFAULT_OPTIONS, mapOptions));
     isLoaded.value = true;

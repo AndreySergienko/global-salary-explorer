@@ -7,6 +7,7 @@ export type Props = {
   currency?: string
   yearly: number
   monthly?: number | null
+  t: (value: string) => string
 }
 
 const props = withDefaults(defineProps<Props>(), {
@@ -36,12 +37,12 @@ const formattedSalaryPerMonth = computed(() =>
     <div class="map-legend__title">{{ label }}</div>
 
     <div class="map-legend__row">
-      <span class="map-legend__label">В год:</span>
+      <span class="map-legend__label">{{ t('legend.year') }}</span>
       <span class="map-legend__value">{{ formattedSalaryPerYear }}</span>
     </div>
 
     <div class="map-legend__row">
-      <span class="map-legend__label">В месяц:</span>
+      <span class="map-legend__label">{{ t('legend.month') }}</span>
       <span class="map-legend__value">{{ formattedSalaryPerMonth }}</span>
     </div>
   </div>
