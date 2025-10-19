@@ -7,6 +7,8 @@ const config: StorybookConfig = {
       docgen: 'vue-component-meta',
     },
   },
+  stories: ['../src/**/*.stories.@(ts|js)'],
+
 };
 
 export default config;

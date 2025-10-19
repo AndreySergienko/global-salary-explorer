@@ -1,5 +1,5 @@
 import { toRaw } from 'vue'
-import type { CountryFeature } from '@/types'
+import type { CountryFeature, CountryFeatureOutWorker } from '@/types'
 
 export function useGetDataWorker() {
   const worker = new Worker(
@@ -12,7 +12,7 @@ export function useGetDataWorker() {
    * Выполняет featureToPolygonPaths + вычисление цвета.
    */
   function prepareInWorker(items: CountryFeature[], min: number, max: number) {
-    return new Promise<CountryFeature[]>((resolve, reject) => {
+    return new Promise<CountryFeatureOutWorker[]>((resolve, reject) => {
       const plainItems = toRaw(items).map(i => ({
         code: i.code,
         country: i.country,
@@ -27,7 +27,7 @@ export function useGetDataWorker() {
         console.log('[MAIN] Got from worker:', e.data.length)
         worker.removeEventListener('message', handleMessage)
         worker.removeEventListener('error', handleError)
-        resolve(e.data as CountryFeature[])
+        resolve(e.data as CountryFeatureOutWorker[])
       }
 
       const handleError = (e: ErrorEvent) => {
