@@ -1,6 +1,6 @@
 import { setup } from '@storybook/vue3';
-import '../src/core/styles/main.css';
+import '../src/assets/styles/main.scss';
+
 
 setup(() => {
-  // Глобальные регистрации компонентов или плагинов
 });

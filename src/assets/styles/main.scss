@@ -1,0 +1,23 @@
+:root {
+  --color-bg: #fff;
+  --color-text: #222;
+  --color-accent: #2a4d8f;
+  --color-border: #ddd;
+  --color-shadow: rgba(0, 0, 0, 0.15);
+  --color-start-hex: #d73027;
+  --color-end-hex: #1a9850;
+
+  --font-main: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-main), sans-serif;
+  font-size: 1.4rem;
+}
