@@ -9,6 +9,8 @@
       "@/*": ["./src/*"],
       "@pages/*": ["./src/pages/*"],
       "@styles/*": ["./src/assets/styles/*"],
+      "@map/*": ["./src/features/map/*"],
+      "@graphic/*": ["./src/features/graphic/*"],
     }
   }
 }

@@ -1,5 +1,5 @@
 import { createApp, h, reactive } from 'vue'
-import MapLegend, { type Props } from '@/components/MapLegend/MapLegend.vue'
+import MapLegend, { type Props } from '@/features/map/components/MapLegend/MapLegend.vue'
 
 export function mountLegend(initialProps: Props) {
   const container = document.createElement('div')

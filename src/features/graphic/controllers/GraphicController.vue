@@ -10,8 +10,8 @@
 import { onMounted, ref, computed, nextTick, toRef, onUnmounted } from 'vue'
 
 import { storeToRefs } from 'pinia'
-import { useFeaturesStore } from '@/stores/useFeaturesStore'
-import { useGraphicDraw } from '@/composables/useGraphicDraw.ts'
+import { useFeaturesStore } from '@/stores/useFeaturesStore.ts'
+import { useGraphicDraw } from '@/features/graphic/composables/useGraphicDraw.ts'
 
 interface Props {
   counter?: number;

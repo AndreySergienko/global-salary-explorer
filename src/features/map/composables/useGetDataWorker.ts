@@ -1,5 +1,6 @@
 import { toRaw } from 'vue'
-import type { CountryFeature, CountryFeatureOutWorker } from '@/types'
+import type { CountryFeature } from '@/types'
+import type { CountryFeatureOutWorker } from '@/features/map/types'
 
 export function useGetDataWorker() {
   const worker = new Worker(

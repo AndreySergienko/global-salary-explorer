@@ -1,11 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import type { RouteRecordRaw } from 'vue-router'
+import { loadLayoutMiddleware } from '@/router/middleware/loadLayoutMiddleware.ts'
 
 const routes: RouteRecordRaw[] = [
   {
     path: '/',
     name: 'Map',
-    component: () => import('@/pages/MapView.vue')
+    component: () => import('@/pages/MapView.vue'),
   },
   {
     path: '/graphic',
@@ -18,5 +19,7 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes,
 })
+
+router.beforeEach(loadLayoutMiddleware);
 
 export default router

@@ -1,5 +1,3 @@
-import { featureToPolygonPaths } from '@/utils/transformJsonToPointMap.ts'
-
 export type Position = [number, number];
 
 export interface CountryFeature {
@@ -12,7 +10,4 @@ export interface CountryFeature {
   coordinates: Position[][] | Position[][][];
 }
 
-export interface CountryFeatureOutWorker extends CountryFeature {
-  paths: ReturnType<typeof featureToPolygonPaths>
-  fillColor: string;
-}
+export type Lang = 'ru' | 'en'

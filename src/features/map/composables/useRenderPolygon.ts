@@ -1,9 +1,7 @@
 import { ref, type Ref } from 'vue'
 import type { CountryFeature } from '@/types'
-import { featureToPolygonPaths } from '@/utils/transformJsonToPointMap.ts'
-import { getChoroplethColor } from '@/utils/colorsScale.ts'
-import { mountLegend } from '@/composables/useMountLegend.ts'
-import { useGetDataWorker } from '@/composables/useGetDataWorker.ts'
+import { mountLegend } from '@/features/map/composables/useMountLegend.ts'
+import { useGetDataWorker } from '@/features/map/composables/useGetDataWorker.ts'
 
 const BASE_CONFIG_POLYGON = {
   strokeColor: '#555555',

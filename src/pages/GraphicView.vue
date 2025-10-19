@@ -1,7 +1,6 @@
 <template>
-  Integration d3
   <GraphicController />
 </template>
 <script setup lang="ts">
-import GraphicController from '@/features/GraphicController.vue'
+import GraphicController from '@/features/graphic/controllers/GraphicController.vue'
 </script>

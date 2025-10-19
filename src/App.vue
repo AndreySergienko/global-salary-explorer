@@ -1,7 +1,8 @@
 <template>
-  <AppHeader />
-  <RouterView />
+  <AppLayout>
+    <RouterView />
+  </AppLayout>
 </template>
 <script setup lang="ts">
-import AppHeader from '@/components/AppHeader/AppHeader.vue'
+import AppLayout from '@/layouts/AppLayout.vue'
 </script>
