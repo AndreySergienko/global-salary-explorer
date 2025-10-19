@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref, toValue } from 'vue'
+import { storeToRefs } from 'pinia'
 import { useGoogleMap } from '@/composables/useGoogleMap.ts'
 import { useFeaturesStore } from '@/stores/useFeaturesStore.ts'
-import { storeToRefs } from 'pinia'
 import { mountLegend } from '@/composables/useMountLegend.ts'
 import { useRenderPolygon } from '@/composables/useRenderPolygon.ts'
 
@@ -24,7 +24,9 @@ onMounted(async () => {
   await loadMap({
     element: mapEl.value,
     center: { lat: 40.4168, lng: -3.7038 },
-    zoom: 5
+    zoom: 2,
+    tilt: 67.5,
+    mapId: import.meta.env.VITE_GOOGLE_MAP_ID
   })
 
   const min = toValue(minYearlyGross)

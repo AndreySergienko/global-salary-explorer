@@ -1,7 +1,6 @@
 import { featureToPolygonPaths } from '@/utils/transformJsonToPointMap.ts'
 
 export type Position = [number, number];
-type LatLng = google.maps.LatLngLiteral
 
 export interface CountryFeature {
   code: string;

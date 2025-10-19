@@ -4,7 +4,13 @@ import type { RouteRecordRaw } from 'vue-router'
 const routes: RouteRecordRaw[] = [
   {
     path: '/',
+    name: 'Map',
     component: () => import('@/pages/MapView.vue')
+  },
+  {
+    path: '/graphic',
+    name: 'Graphic',
+    component: () => import('@/pages/GraphicView.vue')
   }
 ]
 
