@@ -13,7 +13,7 @@ test.describe('Map page', () => {
   })
 
   test('Check title and block tag', async ({ page }) => {
-    const header = page.locator('header.page__header');
+    const header = page.locator('div.page__header');
     await expect(header).toBeVisible();
 
     const title = header.locator('h1.page__title');
