@@ -2,7 +2,12 @@ import { test, expect } from '@playwright/test'
 import type { Worker as PWWorker } from 'playwright';
 
 test.describe('Map page', () => {
+  let workerPromise: Promise<PWWorker>;
   test.beforeEach(async ({ page }) => {
+    workerPromise = new Promise<PWWorker>((resolve) => {
+      page.on('worker', (w) => resolve(w));
+    });
+
     await page.goto('http://localhost:5173/');
     await page.waitForLoadState('load');
   });
@@ -61,19 +66,9 @@ test.describe('Map page', () => {
     await expect(sep).toBeVisible();
     await expect(sep).not.toHaveText(/^$/);
   });
-})
 
-test.describe('Check worker', () => {
-  test('Check get data web-worker', async ({ page }) => {
-    const workerPromise = new Promise<PWWorker>((resolve) => {
-      page.on('worker', (w) => resolve(w));
-    });
-
-    await page.goto('http://localhost:5173/');
-    await page.waitForLoadState('load');
-
+  test('Check get data web-worker', async () => {
     const worker = await workerPromise
-
     const data = await worker.evaluate(() => {
       return new Promise<Array<{ paths: string[], fillColor: string }>>((resolve, reject) => {
         const timeout = setTimeout(() => reject(new Error('worker did not post result in time')), 5000);
