@@ -28,6 +28,9 @@ jobs:
       - name: Start unit test
         run: npm run test:unit
 
+      - name: Start contract test
+        run: npm run test:browser
+
       - name: Build
         run: npm run build-only
 

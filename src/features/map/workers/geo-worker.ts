@@ -1,30 +1,15 @@
 /// <reference lib="webworker" />
 
-import { getChoroplethColor } from '@/utils/colorsScale.ts'
-import { featureToPolygonPaths } from '@/utils/transformJsonToPointMap.ts'
-import type { CountryFeature } from '@/types'
+import { computeChoropleth } from '@/utils/computeChoropleth.ts'
 
 self.onmessage = (e: MessageEvent) => {
-  const { items, min, max } = e.data as {
-    items: CountryFeature[]
-    min: number
-    max: number
+  try {
+    const result = computeChoropleth(e.data)
+    console.log('[WORKER] computing', result.length, 'features')
+    ;(self as DedicatedWorkerGlobalScope).postMessage(result)
+  } catch (err) {
+    ;(self as DedicatedWorkerGlobalScope).postMessage({ ok: false, error: String(err) })
+  } finally {
+    self.close()
   }
-
-  console.log('[WORKER] computing', e.data.items.length, 'features')
-
-  const result = items.map((item) => {
-      const paths = featureToPolygonPaths(item)
-      const value = item.yearly_gross_usd ?? 0
-      const fillColor = getChoroplethColor(value, min, max)
-
-      return {
-        ...item,
-        paths,
-        fillColor,
-      }
-    })
-
-  ;(self as DedicatedWorkerGlobalScope).postMessage(result)
-  self.close();
 }

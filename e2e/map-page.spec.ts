@@ -1,13 +1,7 @@
 import { test, expect } from '@playwright/test'
-import type { Worker as PWWorker } from 'playwright';
 
 test.describe('Map page', () => {
-  let workerPromise: Promise<PWWorker>;
   test.beforeEach(async ({ page }) => {
-    workerPromise = new Promise<PWWorker>((resolve) => {
-      page.on('worker', (w) => resolve(w));
-    });
-
     await page.goto('http://localhost:5173/');
     await page.waitForLoadState('load');
   });
@@ -65,38 +59,5 @@ test.describe('Map page', () => {
     const sep = legend.locator('.page__sep');
     await expect(sep).toBeVisible();
     await expect(sep).not.toHaveText(/^$/);
-  });
-
-  test('Check get data web-worker', async () => {
-    const worker = await workerPromise
-    const data = await worker.evaluate(() => {
-      return new Promise<Array<{ paths: string[], fillColor: string }>>((resolve, reject) => {
-        const timeout = setTimeout(() => reject(new Error('worker did not post result in time')), 5000);
-
-        const orig = self.postMessage.bind(self);
-        self.postMessage = (data) => {
-          clearTimeout(timeout);
-          resolve(data);
-          orig(data);
-          self.postMessage = orig;
-        };
-      });
-    })
-
-    expect(Array.isArray(data)).toBe(true);
-    expect(data.length).toBeGreaterThan(0);
-
-    const first = data[0];
-    expect(first).toHaveProperty('paths');
-    expect(first).toHaveProperty('fillColor');
-
-    const paths = first.paths;
-    expect(paths && (Array.isArray(paths) ? paths.length : String(paths).length)).toBeGreaterThan(0);
-
-    const color = String(first.fillColor);
-    expect(
-      /^#([0-9a-f]{3}|[0-9a-f]{6})$/i.test(color) ||
-      /^rgba?\(/i.test(color)
-    ).toBe(true);
   });
 })
